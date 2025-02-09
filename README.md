@@ -79,9 +79,8 @@ npm start
 | GET  | `/auth/profile` | Retrieve user profile (protected) |
 
 # OAuth2 Routes
-The following is the format 
-Method | Endpoint | Description |
-
+| Method | Endpoint | Description |
+|--------|----------|-------------|
 | GET | `/auth/google` | Initiate Google OAuth login |
 | GET | `/auth/google/callback` | Google OAuth callback |
 | GET | `/auth/github` | Initiate GitHub OAuth login |
@@ -89,5 +88,6 @@ Method | Endpoint | Description |
 
 ---
 Contributions are welcome! If you have suggestions, feel free to open an issue or submit a pull request.
+
 
 
