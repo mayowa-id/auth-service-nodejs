@@ -37,7 +37,7 @@ app.get('/health', (req, res) => {
 
 async function connectDB() {
     try {
-        await mongoose.connect("MONGO_URI", {
+        await mongoose.connect("process.env.MONGO_URI", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
