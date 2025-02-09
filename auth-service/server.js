@@ -37,7 +37,7 @@ app.get('/health', (req, res) => {
 
 async function connectDB() {
     try {
-        await mongoose.connect("mongodb+srv://idowumayowa02:twilightworld@cluster0.cz8hg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+        await mongoose.connect("MONGO_URI", {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
